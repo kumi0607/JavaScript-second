@@ -28,4 +28,4 @@ const li = document.createElement('li');
 li.textContent = 'javascriptで新しく作成したリスト';
 
 // ui要素の末尾にli要素を追加する
-document.querySelector('ui').appendChild(li);
+document.querySelector('ul').appendChild(li);
